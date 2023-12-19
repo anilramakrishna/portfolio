@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(187, 187, 187, 0.04) 0%, rgba(187, 187, 187, 0.04) 50%, rgba(86, 86, 86, 0.04) 50%, rgba(86, 86, 86, 0.04) 100%), linear-gradient(135deg, rgba(166, 166, 166, 0.04) 0%, rgba(166, 166, 166, 0.04) 50%, rgba(92, 92, 92, 0.04) 50%, rgba(92, 92, 92, 0.04) 100%), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    padding: 2rem 2.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.inputfield {
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid white;
+}
+
+.inputfield label {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-40%);
+    color: white;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputfield input {
+    width: 130%;
+    height: 60px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+    color: white;
+}
+
+button {
+    width: 100%;
+    border-radius: 60px;
+    height: 42px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.login p {
+    padding: 20px 0 0 0;
+    color: white;
+}
+
+.login p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.login p a:hover {
+    text-decoration: underline;
+}
+
+.inputfield ion-icon {
+    position: absolute;
+    right: 7px;
+    font-size: 1.3rem;
+    top: 18px;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

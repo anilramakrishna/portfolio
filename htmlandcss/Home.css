@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar .list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;
+    background: none;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    padding-top: 10px;
+    background-color: #776B5D;
+    max-width: 500px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #776B5D;
+
+}
+
+/* h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 100px;
+} */
+
+.list .logo {
+    margin-right: 780px;
+}
+
+.hero {
+    background-color: #F3EEEA;
+    width: 100%;
+    height: 645px;
+}
+
+.hero1 {
+    background-color: #EBE3D5;
+    width: 100%;
+    height: 645px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.link:hover {
+    color: #d88b4b;
+}
+
+.hero .imgback {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #776B5D;
+    top: -13%;
+    left: 8%;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 30px #776B5D);
+    animation: glow 1s alternate infinite;
+}
+
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 10px #776B5D);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 30px #776B5D);
+    }
+}
+
+h1 {
+    color: #776B5D;
+    filter: drop-shadow(0 0 10px #776B5D);
+    position: relative;
+    left: 50%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    top: 23%;
+    font-weight: 700;
+    width: 200px;
+}
+
+h2 {
+    position: relative;
+    left: 50%;
+    margin-top: 0;
+    top: 21%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    width: 350px;
+    color: #4F4A45;
+}
+
+h3 {
+    position: relative;
+    left: 50%;
+    margin-top: 0;
+    top: 20%;
+    font-weight: 100;
+    width: 200px;
+    color: #4F4A45;
+}
+
+p {
+
+    position: relative;
+    left: 50%;
+    width: 700px;
+    margin-top: 0;
+    top: 20%;
+    color: #4F4A45;
+}
+
+button {
+
+    position: relative;
+    left: 50%;
+    margin-top: 0;
+    top: 22%;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #776B5D;
+    color: white;
+    border: none;
+    filter: drop-shadow(0 0 10px #776B5D);
+}
+
+.imgback img {
+    position: absolute;
+    background: transparent;
+    top: -102px;
+    width: 330px;
+    height: 399px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 170px;
+    right: -20px;
+}
+
+img#no-background {
+    background-image: none;
+}
+
+.hero1 img {
+    width: 300px;
+    height: 380px;
+    position: relative;
+    top: 13%;
+    left: 7%;
+    border-radius: 23% 77% 32% 68% / 70% 20% 80% 30%;
+}
+
+.hero1 h2 {
+    position: relative;
+    top: 3.5%;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    filter: drop-shadow(0 5px 10px black);
+    right: -10%;
+}
+
+.hero1 p {
+    position: relative;
+    top: -35%;
+    left: 35%;
+    width: 900px;
+}
+
+footer {
+    background-color: #776B5D;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact {
+    background-color: #F3EEEA;
+}
+
+.contact h2 {
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.contact img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 8%;
+    top: -70px;
+}
+
+.contact .mainp {
+    position: relative;
+    left: 2%;
+    top: 0px;
+    background: linear-gradient(200deg, rgba(213, 213, 213, 0.01) 0%, rgba(213, 213, 213, 0.01) 14.286%, rgba(140, 140, 140, 0.01) 14.286%, rgba(140, 140, 140, 0.01) 28.572%, rgba(52, 52, 52, 0.01) 28.572%, rgba(52, 52, 52, 0.01) 42.858%, rgba(38, 38, 38, 0.01) 42.858%, rgba(38, 38, 38, 0.01) 57.144%, rgba(159, 159, 159, 0.01) 57.144%, rgba(159, 159, 159, 0.01) 71.42999999999999%, rgba(71, 71, 71, 0.01) 71.43%, rgba(71, 71, 71, 0.01) 85.71600000000001%, rgba(88, 88, 88, 0.01) 85.716%, rgba(88, 88, 88, 0.01) 100.002%), linear-gradient(337deg, rgba(25, 25, 25, 0.01) 0%, rgba(25, 25, 25, 0.01) 12.5%, rgba(150, 150, 150, 0.01) 12.5%, rgba(150, 150, 150, 0.01) 25%, rgba(84, 84, 84, 0.01) 25%, rgba(84, 84, 84, 0.01) 37.5%, rgba(85, 85, 85, 0.01) 37.5%, rgba(85, 85, 85, 0.01) 50%, rgba(188, 188, 188, 0.01) 50%, rgba(188, 188, 188, 0.01) 62.5%, rgba(80, 80, 80, 0.01) 62.5%, rgba(80, 80, 80, 0.01) 75%, rgba(73, 73, 73, 0.01) 75%, rgba(73, 73, 73, 0.01) 87.5%, rgba(219, 219, 219, 0.01) 87.5%, rgba(219, 219, 219, 0.01) 100%), linear-gradient(203deg, rgba(233, 233, 233, 0.01) 0%, rgba(233, 233, 233, 0.01) 25%, rgba(114, 114, 114, 0.01) 25%, rgba(114, 114, 114, 0.01) 50%, rgba(164, 164, 164, 0.01) 50%, rgba(164, 164, 164, 0.01) 75%, rgba(228, 228, 228, 0.01) 75%, rgba(228, 228, 228, 0.01) 100%), linear-gradient(317deg, rgba(139, 139, 139, 0.02) 0%, rgba(139, 139, 139, 0.02) 16.667%, rgba(44, 44, 44, 0.02) 16.667%, rgba(44, 44, 44, 0.02) 33.334%, rgba(166, 166, 166, 0.02) 33.334%, rgba(166, 166, 166, 0.02) 50.001000000000005%, rgba(2, 2, 2, 0.02) 50.001%, rgba(2, 2, 2, 0.02) 66.668%, rgba(23, 23, 23, 0.02) 66.668%, rgba(23, 23, 23, 0.02) 83.33500000000001%, rgba(21, 21, 21, 0.02) 83.335%, rgba(21, 21, 21, 0.02) 100.002%), linear-gradient(328deg, rgba(3, 3, 3, 0.03) 0%, rgba(3, 3, 3, 0.03) 12.5%, rgba(116, 116, 116, 0.03) 12.5%, rgba(116, 116, 116, 0.03) 25%, rgba(214, 214, 214, 0.03) 25%, rgba(214, 214, 214, 0.03) 37.5%, rgba(217, 217, 217, 0.03) 37.5%, rgba(217, 217, 217, 0.03) 50%, rgba(68, 68, 68, 0.03) 50%, rgba(68, 68, 68, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%, rgba(200, 200, 200, 0.03) 75%, rgba(200, 200, 200, 0.03) 87.5%, rgba(198, 198, 198, 0.03) 87.5%, rgba(198, 198, 198, 0.03) 100%), linear-gradient(97deg, rgba(195, 195, 195, 0.03) 0%, rgba(195, 195, 195, 0.03) 16.667%, rgba(177, 177, 177, 0.03) 16.667%, rgba(177, 177, 177, 0.03) 33.334%, rgba(170, 170, 170, 0.03) 33.334%, rgba(170, 170, 170, 0.03) 50.001000000000005%, rgba(158, 158, 158, 0.03) 50.001%, rgba(158, 158, 158, 0.03) 66.668%, rgba(121, 121, 121, 0.03) 66.668%, rgba(121, 121, 121, 0.03) 83.33500000000001%, rgba(146, 146, 146, 0.03) 83.335%, rgba(146, 146, 146, 0.03) 100.002%), linear-gradient(268deg, rgba(103, 103, 103, 0.03) 0%, rgba(103, 103, 103, 0.03) 25%, rgba(112, 112, 112, 0.03) 25%, rgba(112, 112, 112, 0.03) 50%, rgba(4, 4, 4, 0.03) 50%, rgba(4, 4, 4, 0.03) 75%, rgba(227, 227, 227, 0.03) 75%, rgba(227, 227, 227, 0.03) 100%), linear-gradient(90deg, hsl(98, 0%, 0%), hsl(98, 0%, 0%));
+    color: transparent;
+    font-size: 23px;
+    color: #4F4A45;
+    width: 357px;
+    -webkit-background-clip: text;
+
+}
+
+.details {
+    position: relative;
+    left: 45%;
+    top: 100px;
+    width: 370px;
+    padding-top: 15px;
+    border-style: solid;
+    border-color: #776B5D;
+}
+
+@media screen and (max-width:1290px) {
+    .list .logo {
+        margin-right: 580px;
+    }
+
+    .navbar .list {
+        margin-right: 50px;
+    }
+
+    p {
+        width: 600px;
+    }
+
+    .hero1 p {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .list .logo {
+        margin-right: 480px;
+    }
+
+    .navbar .list {
+        margin-right: 50px;
+    }
+
+    p {
+        width: 570px;
+    }
+
+    .hero1 p {
+        width: 730px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .list .logo {
+        margin-right: 430px;
+    }
+
+    .navbar .list {
+        margin-right: 50px;
+    }
+
+    p {
+        width: 550px;
+    }
+
+    .hero1 p {
+        width: 700px;
+    }
+
+    .hero1 img {
+        width: 260px;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width:1095px) {
+    .list .logo {
+        margin-right: 410px;
+    }
+
+    .navbar .list {
+        margin-right: 50px;
+    }
+
+    p {
+        width: 530px;
+    }
+
+    .hero1 p {
+        width: 680px;
+    }
+
+    .hero1 img {
+        width: 250px;
+        height: 320px;
+    }
+
+
+}
+
+@media screen and (max-width:1070px) {
+    .list .logo {
+        margin-right: 390px;
+    }
+
+    .navbar .list {
+        margin-right: 50px;
+    }
+
+    p {
+        width: 520px;
+    }
+
+    .hero1 p {
+        width: 680px;
+        top: -30%
+    }
+
+    .hero1 img {
+        width: 250px;
+        height: 320px;
+    }
+
+
+}
+
+@media screen and (max-width:1060px) {
+    .list .logo {
+        margin-right: 380px;
+    }
+
+    .navbar .list {
+        margin-right: 50px;
+    }
+
+    p {
+        width: 500px;
+    }
+
+    .hero1 p {
+        width: 640px;
+        top: -30%
+    }
+
+    .hero1 img {
+        width: 250px;
+        height: 320px;
+    }
+
+
+}
